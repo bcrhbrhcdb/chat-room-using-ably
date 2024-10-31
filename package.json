@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "mkdir -p dist && cp index.html dist/ && cp index.js dist/"
   },
   "dependencies": {
     "express": "^4.21.1",
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/bcrhbrhcdb/learning-how-to-build-chat-app/issues"
   },
-  "homepage": "https://github.com/bcrhbrhcdb/learning-how-to-build-chat-app#readme"
+  "homepage": "https://bcrhbrhcdb.github.io/learning-how-to-build-chat-app",
+  "engines": {
+    "node": "16.x"
+  }
 }
