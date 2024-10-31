@@ -1,11 +1,13 @@
 {
   "scripts": {
-    "start": "node index.js",
+    "start": "servor --reload",
     "build": "mkdir -p dist && cp index.html dist/ && cp index.js dist/ && cp styles.css dist/"
   },
   "dependencies": {
     "express": "^4.21.1",
-    "socket.io": "^4.8.1"
+    "socket.io": "^4.8.1",
+    "servor": "4.0.2"
+    
   },
   "name": "chat-app-learn",
   "description": "[Edait in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/bcrhbrhcdb/learning-how-to-build-chat-app)",
