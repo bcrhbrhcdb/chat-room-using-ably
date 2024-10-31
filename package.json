@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "node index.js",
-    "build": "mkdir -p dist && cp index.html dist/ && cp index.js dist/"
+    "build": "mkdir -p dist && cp index.html dist/ && cp index.js dist/ && cp styles.css dist/"
   },
   "dependencies": {
     "express": "^4.21.1",
