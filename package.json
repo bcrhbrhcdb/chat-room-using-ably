@@ -8,7 +8,7 @@
     "socket.io": "^4.8.1"
   },
   "name": "chat-app-learn",
-  "description": "[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/bcrhbrhcdb/learning-how-to-build-chat-app)",
+  "description": "[Edait in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/bcrhbrhcdb/learning-how-to-build-chat-app)",
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
